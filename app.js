@@ -25,8 +25,8 @@ function baiduFanyi(q, bool, spinner) {
   let from = '';
   let to = '';
   let salt = '123456';
-  let appid = '20190510000296104';
-  let sign = md5(appid + q + salt + 'FfIspV1K_e6zzvqeqibI');
+  let appid = '20190510000296104_jhasdmoiij';
+  let sign = md5(appid + q + salt + 'FfIspV1K_e6zzvqeqibI_jhasdmoiij');
   if (bool) {
     from = 'zh';
     to = 'en';
