@@ -1,0 +1,23 @@
+{
+  "name": "ccfy",
+  "version": "1.0.0",
+  "description": "百度翻译api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyue1118/ccfy.git"
+  },
+  "keywords": [
+    "百度翻译api",
+    "node"
+  ],
+  "author": "chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenyue1118/ccfy/issues"
+  },
+  "homepage": "https://github.com/chenyue1118/ccfy#readme"
+}
