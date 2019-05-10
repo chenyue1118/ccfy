@@ -1,23 +1,21 @@
 {
-  "name": "ccfy",
+  "name": "cc_fanyi",
   "version": "1.0.0",
-  "description": "百度翻译api",
+  "description": "fanyi",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chenyue1118/ccfy.git"
-  },
-  "keywords": [
-    "百度翻译api",
-    "node"
-  ],
   "author": "chen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chenyue1118/ccfy/issues"
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "is-chinese": "^1.2.9",
+    "md5": "^2.2.1",
+    "ora": "^3.4.0",
+    "request": "^2.88.0"
   },
-  "homepage": "https://github.com/chenyue1118/ccfy#readme"
+  "bin": {
+    "ccfy": "./app.js"
+  }
 }
